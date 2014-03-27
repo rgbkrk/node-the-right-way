@@ -4,4 +4,4 @@ fs.writeFile('target.txt', 'something special', function(err) {
     throw err;
   }
   console.log("File saved!");
-})
+});

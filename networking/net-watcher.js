@@ -1,4 +1,8 @@
-'use strict';
+(function () {
+   "use strict";
+   // this function is strict...
+}());
+
 const
   fs = require('fs'),
   net = require('net'),
@@ -6,6 +10,7 @@ const
   filename = process.argv[2],
 
   server = net.createServer(function(connection) {
+    "use strict";
 
     // reporting
     console.log('Subscriber connected.');
@@ -29,5 +34,6 @@ if (!filename) {
 }
 
 server.listen(5432, function() {
+  "use strict";
   console.log('Listening for subscribers...');
 });

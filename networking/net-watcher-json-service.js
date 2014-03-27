@@ -1,4 +1,8 @@
-'use strict';
+(function () {
+   'use strict';
+   // this function is strict...
+}());
+
 const
   fs = require('fs'),
   net = require('net'),
