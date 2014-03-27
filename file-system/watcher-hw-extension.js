@@ -1,7 +1,4 @@
-(function () {
-   'use strict';
-   // this function is strict...
-}());
+"use strict";
 
 const
   fs = require('fs'),

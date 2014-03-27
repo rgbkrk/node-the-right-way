@@ -1,3 +1,5 @@
+"use strict";
+
 const fs = require('fs');
 fs.readFile('target.txt', function (err, data) {
   if (err) {

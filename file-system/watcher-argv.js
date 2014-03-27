@@ -7,4 +7,4 @@ if(!filename){
 fs.watch(filename, function(){
   console.log("File " + filename + " just changed!");
 });
-console.log("Now watching " + filename + " for changes...")
+console.log("Now watching " + filename + " for changes...");
